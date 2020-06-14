@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/menuscene.unity
     guid: be1f3b476e7637b46afbe9852ffba837
   - enabled: 1
+    path: Assets/Scenes/introscene.unity
+    guid: 3ccb94877a218c04f8a9cc6ee9de1891
+  - enabled: 1
     path: Assets/Scenes/hotelscene.unity
     guid: bd4f7de584b77f94bb1560058225854c
   - enabled: 1
