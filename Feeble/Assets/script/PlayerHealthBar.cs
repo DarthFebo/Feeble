@@ -63,13 +63,15 @@ public class PlayerHealthBar : MonoBehaviour
 
     void OnGUI()
     {
+        return;
+        
         int posX = 10;
         int posY = 10;
         int height = 15;
 
         float previousAdjustValue = (previousHealth * healthBarWidth) / maxHP;
         float percentage = healthBarWidth * (curHP / maxHP);
-
+        Debug.Log(percentage);
         GUI.DrawTexture(new Rect(posX, posY, (healthBarWidth * 2), height), healthBackground);
 
         GUI.DrawTexture(new Rect(posX, posY, (previousAdjustValue * 2), height), healthDamage);
@@ -95,7 +97,8 @@ public class PlayerHealthBar : MonoBehaviour
                 HUDSkin.fontSize = 16;
                 GUI.Label(new Rect(30, 28, 100, 50), (int)(previousHealth) + "/" + maxHP.ToString(), HUDSkin);
 
-            } else if (percentage < 25)
+            } 
+            else if (percentage < 25)
             {
                 HUDSkin.normal.textColor = Color.red;
                 HUDSkin.fontStyle = FontStyle.BoldAndItalic;

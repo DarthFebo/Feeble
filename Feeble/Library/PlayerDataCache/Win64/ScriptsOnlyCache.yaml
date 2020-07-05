@@ -2,11 +2,15 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - GameManager
+    - Gun
     - HealthBar
     - PlayerCameraController
     - PlayerCollision
+    - PlayerHealthBar
     - PlayerMovementController
+    - bullet
     - enemyScript
+    - grappelingGun
     - hurtPlayer
     - menuScript
     - nextLevel
@@ -64,23 +68,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11264}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11826}
+      Script: {instanceID: 11828}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12930}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13010}
+      Script: {instanceID: 13020}
     - Class: 114
-      Script: {instanceID: 13292}
+      Script: {instanceID: 13304}
     - Class: 114
-      Script: {instanceID: 13602}
+      Script: {instanceID: 13616}
     - Class: 114
-      Script: {instanceID: 13702}
+      Script: {instanceID: 13716}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -119,21 +123,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11264}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11556}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11786}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12930}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13010}
+      Script: {instanceID: 13020}
     - Class: 114
-      Script: {instanceID: 13702}
+      Script: {instanceID: 13716}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -175,17 +179,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -200,44 +196,48 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11826}
+      Script: {instanceID: 11828}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 11878}
     - Class: 114
-      Script: {instanceID: 12544}
+      Script: {instanceID: 12176}
     - Class: 114
-      Script: {instanceID: 12698}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12732}
+      Script: {instanceID: 12548}
     - Class: 114
-      Script: {instanceID: 13010}
+      Script: {instanceID: 12706}
     - Class: 114
-      Script: {instanceID: 13280}
+      Script: {instanceID: 12742}
     - Class: 114
-      Script: {instanceID: 13702}
+      Script: {instanceID: 13020}
     - Class: 114
-      Script: {instanceID: 13846}
+      Script: {instanceID: 13292}
     - Class: 114
-      Script: {instanceID: 14066}
+      Script: {instanceID: 13716}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 13866}
+    - Class: 114
+      Script: {instanceID: 14086}
+    - Class: 114
+      Script: {instanceID: 14268}
+    - Class: 114
+      Script: {instanceID: 14334}
+    - Class: 114
+      Script: {instanceID: 14340}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -271,23 +271,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11264}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11556}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11786}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12930}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13292}
+      Script: {instanceID: 13304}
     - Class: 114
-      Script: {instanceID: 13602}
+      Script: {instanceID: 13616}
     - Class: 114
-      Script: {instanceID: 13702}
+      Script: {instanceID: 13716}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -330,29 +330,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11264}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11556}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11786}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 12324}
     - Class: 114
-      Script: {instanceID: 12930}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13292}
+      Script: {instanceID: 13304}
     - Class: 114
-      Script: {instanceID: 13314}
+      Script: {instanceID: 13326}
     - Class: 114
-      Script: {instanceID: 13602}
+      Script: {instanceID: 13616}
     - Class: 114
-      Script: {instanceID: 13702}
+      Script: {instanceID: 13716}
     - Class: 114
-      Script: {instanceID: 13972}
+      Script: {instanceID: 13992}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -448,6 +448,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 1a2e51a62df2f0b63fc12329a13118b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ControlsGUI
   - hash:
       serializedVersion: 2
       Hash: 72712369a7c681ad84fc255a5ec0b333
@@ -630,6 +636,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: bd2f96d72cb09bb2bc6ea8b42fc9a2be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: grappelingGun
+  - hash:
+      serializedVersion: 2
       Hash: 303ad70ce203ad874efe2965d0fbcff9
     assemblyName: Unity.Analytics.Tracker.dll
     namespaceName: UnityEngine.Analytics
@@ -690,6 +702,12 @@ ScriptsOnlyBuild:
     className: shootGun
   - hash:
       serializedVersion: 2
+      Hash: 0e5eccd685ed63de4e369a46e6cc6766
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireNode
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -720,7 +738,13 @@ ScriptsOnlyBuild:
     className: ColliderBehaviour
   - hash:
       serializedVersion: 2
-      Hash: 6fb76af1ea6647f95aa6e5350fd68d82
+      Hash: 32cd4bda9e9e4b4f1bbe4a0d53ad5d33
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerControls
+  - hash:
+      serializedVersion: 2
+      Hash: 93e3868a4655675bd62e0e17b33da272
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: enemyScript
@@ -738,7 +762,13 @@ ScriptsOnlyBuild:
     className: AnalyticsEventTrackerEditor
   - hash:
       serializedVersion: 2
-      Hash: 8feaead310cf006d70f218414c58b2de
+      Hash: 8a8391cb2c5b458156110cddac1e7a94
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireGrid
+  - hash:
+      serializedVersion: 2
+      Hash: f83f799e69e8cca2e5713b5e0c10496c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: playerHealth
@@ -822,6 +852,12 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
+      Hash: 7ba0fb32b7201f2e48d9ca34a80ca353
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: copShoot
+  - hash:
+      serializedVersion: 2
       Hash: bf4615d8a4e15399cae5c21ad9d42c1d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -868,6 +904,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c0a2e580f06824542283ab9b7f452382
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireCell
   - hash:
       serializedVersion: 2
       Hash: 301f4da7cc3b301c161d089f9d22efed
@@ -918,7 +960,19 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: f5e1ba9ac7da625aba6e0385a09277bc
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireGrassRemover
+  - hash:
+      serializedVersion: 2
+      Hash: d87f6ceb995a0f46b3be80520b66ab93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UserGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 86409d72c0b394eb0b9c8ac51ae7e0a7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovementController
@@ -960,6 +1014,12 @@ ScriptsOnlyBuild:
     className: HealthBar
   - hash:
       serializedVersion: 2
+      Hash: 6eb5f5ded9b5538c8fe3d433b84bcee8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: oldPlayerMovement
+  - hash:
+      serializedVersion: 2
       Hash: df434544c9f7b33d1cc7e635b180d279
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -973,6 +1033,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: FPSCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
@@ -982,6 +1048,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 00bf3823d711a06f599cfa93bb263fea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireVisualManager
   - hash:
       serializedVersion: 2
       Hash: 9b895dcabbc1faf095c000c32d471fd0
@@ -1000,6 +1072,12 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkManagerHUD
+  - hash:
+      serializedVersion: 2
+      Hash: 113b0507fb7e115d700adf8320307259
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Gun
   - hash:
       serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
@@ -1032,6 +1110,18 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 09b94b04f69436e0c76cd53481ab736c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: bullet
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1050,6 +1140,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: 898e262e2c5c55803521aa4aff11af87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireIgniter
+  - hash:
+      serializedVersion: 2
       Hash: 7072231382eb3c4871b3dd75ad0227e1
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1062,82 +1158,22 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: fc2691976bc322322be55f4702008928
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireNodeChain
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 1a2e51a62df2f0b63fc12329a13118b3
+      Hash: 9bfa47988c0748342f04ab52ddbe0e2e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ControlsGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 0e5eccd685ed63de4e369a46e6cc6766
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FireNode
-  - hash:
-      serializedVersion: 2
-      Hash: 32cd4bda9e9e4b4f1bbe4a0d53ad5d33
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerControls
-  - hash:
-      serializedVersion: 2
-      Hash: 8a8391cb2c5b458156110cddac1e7a94
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FireGrid
-  - hash:
-      serializedVersion: 2
-      Hash: c0a2e580f06824542283ab9b7f452382
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FireCell
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FireGrassRemover
-  - hash:
-      serializedVersion: 2
-      Hash: d87f6ceb995a0f46b3be80520b66ab93
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UserGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityStandardAssets.Utility
-    className: FPSCounter
-  - hash:
-      serializedVersion: 2
-      Hash: 00bf3823d711a06f599cfa93bb263fea
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FireVisualManager
-  - hash:
-      serializedVersion: 2
-      Hash: 09b94b04f69436e0c76cd53481ab736c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FireManager
-  - hash:
-      serializedVersion: 2
-      Hash: 898e262e2c5c55803521aa4aff11af87
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FireIgniter
-  - hash:
-      serializedVersion: 2
-      Hash: fc2691976bc322322be55f4702008928
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FireNodeChain
+    className: newPlayerMovement
   platform: 19
   scenePathNames:
   - Assets/Scenes/menuscene.unity
@@ -1145,4 +1181,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/hotelscene.unity
   - Assets/Scenes/endscene.unity
   - Assets/Scenes/diedscene.unity
-  playerPath: C:/Users/fvanb/Desktop/Feeble.exe
+  playerPath: D:/HKU/School/BPW1/Feeble.exe

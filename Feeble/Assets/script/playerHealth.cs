@@ -10,6 +10,7 @@ public class playerHealth : MonoBehaviour
     [SerializeField] RectTransform healthTransform;
 
     [SerializeField] HealthBar healthBar;
+    [SerializeField] Image Health;
 
     private float rectStartWidth = 0;
 
@@ -26,7 +27,8 @@ public class playerHealth : MonoBehaviour
 
         if (healthBar && currentHealth > -1)
         {
-            healthBar.SetHealth(currentHealth, startHealth);
+            Health.fillAmount -= .33f;  
+           // healthBar.SetHealth(currentHealth, startHealth);
         }
 
         if (currentHealth <= 0)

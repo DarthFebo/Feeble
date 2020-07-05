@@ -20,8 +20,9 @@ public class target : MonoBehaviour
     private void Start()
     {
         //SoundSource.clip = AudioClip;
-        currentHealt = health;
         health = startHealth;
+        currentHealt = health;
+        
 
     }
 

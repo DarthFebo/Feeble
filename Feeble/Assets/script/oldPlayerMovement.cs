@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class oldPlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
     public float forwardForce = 600f;
