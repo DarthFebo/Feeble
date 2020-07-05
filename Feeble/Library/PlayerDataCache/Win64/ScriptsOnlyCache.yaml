@@ -80,11 +80,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13304}
     - Class: 114
-      Script: {instanceID: 13616}
+      Script: {instanceID: 13618}
     - Class: 114
-      Script: {instanceID: 13716}
+      Script: {instanceID: 13718}
     - Class: 114
-      Script: {instanceID: 14340}
+      Script: {instanceID: 14342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -135,9 +135,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13020}
     - Class: 114
-      Script: {instanceID: 13716}
+      Script: {instanceID: 13718}
     - Class: 114
-      Script: {instanceID: 14340}
+      Script: {instanceID: 14342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -179,13 +179,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 11254}
@@ -216,17 +224,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13292}
     - Class: 114
-      Script: {instanceID: 13716}
+      Script: {instanceID: 13718}
     - Class: 114
-      Script: {instanceID: 13866}
+      Script: {instanceID: 13868}
     - Class: 114
-      Script: {instanceID: 14086}
+      Script: {instanceID: 14088}
     - Class: 114
-      Script: {instanceID: 14268}
+      Script: {instanceID: 14270}
     - Class: 114
-      Script: {instanceID: 14334}
+      Script: {instanceID: 14336}
     - Class: 114
-      Script: {instanceID: 14340}
+      Script: {instanceID: 14342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -238,6 +246,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -283,11 +295,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13304}
     - Class: 114
-      Script: {instanceID: 13616}
+      Script: {instanceID: 13618}
     - Class: 114
-      Script: {instanceID: 13716}
+      Script: {instanceID: 13718}
     - Class: 114
-      Script: {instanceID: 14340}
+      Script: {instanceID: 14342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -346,13 +358,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13326}
     - Class: 114
-      Script: {instanceID: 13616}
+      Script: {instanceID: 13618}
     - Class: 114
-      Script: {instanceID: 13716}
+      Script: {instanceID: 13718}
     - Class: 114
-      Script: {instanceID: 13992}
+      Script: {instanceID: 13994}
     - Class: 114
-      Script: {instanceID: 14340}
+      Script: {instanceID: 14342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -696,7 +708,7 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
-      Hash: da42890a1ac21f39c259feeaa942320a
+      Hash: 0ed1381106087f57c5e59dd42658b981
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: shootGun
@@ -852,7 +864,7 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 7ba0fb32b7201f2e48d9ca34a80ca353
+      Hash: e4ee456385617c73644449fff779ebd8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: copShoot
@@ -904,6 +916,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9bfa47988c0748342f04ab52ddbe0e2e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: newPlayerMovement
   - hash:
       serializedVersion: 2
       Hash: c0a2e580f06824542283ab9b7f452382
@@ -1074,7 +1092,7 @@ ScriptsOnlyBuild:
     className: NetworkManagerHUD
   - hash:
       serializedVersion: 2
-      Hash: 113b0507fb7e115d700adf8320307259
+      Hash: ec83af82ccc58dcbfa2d0a8006603a90
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Gun
@@ -1116,7 +1134,7 @@ ScriptsOnlyBuild:
     className: FireManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 33f4b4ec060e4846164601a5c04005e0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: bullet
@@ -1168,12 +1186,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 9bfa47988c0748342f04ab52ddbe0e2e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: newPlayerMovement
   platform: 19
   scenePathNames:
   - Assets/Scenes/menuscene.unity
@@ -1181,4 +1193,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/hotelscene.unity
   - Assets/Scenes/endscene.unity
   - Assets/Scenes/diedscene.unity
-  playerPath: D:/HKU/School/BPW1/Feeble.exe
+  playerPath: C:/Users/fvanb/Desktop/BPW1herkansingFvB/Feeble.exe
