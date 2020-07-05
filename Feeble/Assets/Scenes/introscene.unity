@@ -392,7 +392,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 663, y: 212.5}
+  m_AnchoredPosition: {x: 985, y: 269}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1271249842
@@ -416,9 +416,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.629717, g: 0.8396226, b: 0.6463379, a: 1}
+    m_PressedColor: {r: 0.24688502, g: 0.7169812, b: 0.3385683, a: 1}
+    m_SelectedColor: {r: 0.075834274, g: 1, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -613,9 +613,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You were on a helicopter ride when it crashed and you fell on top of this
-    building.. Get safely to the exit, the door on the main floor, while avoiding
-    zombies! Good luck, soldier!
+  m_text: You were on a SUPER SECRET undercover mission when your pilot crashed near
+    this goverment lab. You landed on the roof and must get to the exit on the main
+    floor while avoiding the cops guarding the building. To them, you're just another
+    intruder, and this mission is too important to reveal your identity. Good luck,
+    soldier!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -880,7 +882,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 675.1, y: 405}
-  m_SizeDelta: {x: 1002.1, y: 311.8}
+  m_SizeDelta: {x: 1002.1, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1516093916
 MonoBehaviour:
@@ -913,10 +915,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You were on a helicopter ride when it crashed and you fell on top of this
-    building.. Get safely to the exit, the door on the main floor, while avoiding
-    zombies! \nGood luck, soldier!\n\nWAD to move, space to jump, mouse to look around
-    and shoot"
+  m_Text: "You were on a SUPER SECRET undercover mission when your pilot crashed
+    near this goverment lab. You landed on the roof and must get to the exit on the
+    main floor while avoiding the cops guarding the building. To them, you're just
+    another intruder, and this mission is too important to reveal your identity.
+    Good luck, soldier!\n\nWAD to move, mouse to look around and shoot\nGrapple with
+    G, unhook with H\n(Double) Space to  (double) jump\n 3 hits to die/ kill"
 --- !u!222 &1516093917
 CanvasRenderer:
   m_ObjectHideFlags: 0

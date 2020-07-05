@@ -28,7 +28,7 @@ public class playerHealth : MonoBehaviour
         if (healthBar && currentHealth > -1)
         {
             Health.fillAmount -= .33f;  
-           // healthBar.SetHealth(currentHealth, startHealth);
+           //healthBar.SetHealth(currentHealth, startHealth);
         }
 
         if (currentHealth <= 0)
