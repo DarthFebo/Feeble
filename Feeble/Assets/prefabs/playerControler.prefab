@@ -271,9 +271,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76f5270d87920a440a440f14956692e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  jumpForce: 4.5
+  speed: 3
+  jumpForce: 2
   raycastDistance: 1.8
+  forward: {fileID: 0}
 --- !u!54 &7330052465764235901
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -420,6 +421,7 @@ MonoBehaviour:
   gunTip: {fileID: 7330052466442575978}
   camera: {fileID: 7330052465315294831}
   player: {fileID: 7330052465764235782}
+  joint: {fileID: 0}
 --- !u!120 &4307635455718326051
 LineRenderer:
   m_ObjectHideFlags: 0

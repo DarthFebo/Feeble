@@ -7,11 +7,12 @@ public class Gun : MonoBehaviour
     private GameObject bullet;
     [SerializeField]
     private Transform spawn;
-    private float _reloadTime = 2;
+    public float _reloadTime = 2;
     [SerializeField]
     private float bulletSpeed;
     [SerializeField]
     private float bulletModifier;
+    //public AudioSource bulletImpact;
     void Start()
     {
         bulletSpeed *= bulletModifier;
@@ -32,11 +33,12 @@ public class Gun : MonoBehaviour
     /// <returns></returns>
     private IEnumerator Shoot()
     {
+        //bulletImpact.Play();
         GameObject go = (GameObject)Instantiate(bullet, spawn.position, spawn.rotation);
         go.GetComponent<Rigidbody>().AddForce(go.transform.forward * bulletSpeed * Time.deltaTime);
         _reloadTime = 2f;
         yield return new WaitForSeconds(5);
-        Destroy(go);
+     //   Destroy(go);
     }
 
     /// <summary>

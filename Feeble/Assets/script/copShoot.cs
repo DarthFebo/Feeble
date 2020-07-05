@@ -17,6 +17,7 @@ public class copShoot : MonoBehaviour
 	public float fireRate = 1f;
 	private float fireCountdown = 0f;
 	public Transform firePoint;
+	public AudioSource bulletImpact;
 
 	// Use this for initialization
 	void Start()
@@ -68,6 +69,7 @@ public class copShoot : MonoBehaviour
 	void Shoot()
 	{
 		Debug.Log("Shoot");
+		bulletImpact.Play();
 		GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 		bullet bullet = bulletGO.GetComponent<bullet>();
 		Debug.Log(bullet);

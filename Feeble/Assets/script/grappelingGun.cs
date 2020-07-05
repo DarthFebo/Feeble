@@ -25,10 +25,12 @@ public class grappelingGun : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.G))
         {
             StartGrapple();
+            Debug.Log("is grappled");
         }
         if (Input.GetKeyUp(KeyCode.H))
         {
             StopGrapple();
+            Debug.Log("Stoped grapple");
         }
     }
 
@@ -60,7 +62,7 @@ public class grappelingGun : MonoBehaviour
             joint.minDistance = distanceFromPoint * 0.25f;
 
             //Adjust these values to fit your game.
-            joint.spring = 4.5f;
+            joint.spring = 6f;
             joint.damper = 7f;
             joint.massScale = 4.5f;
 
